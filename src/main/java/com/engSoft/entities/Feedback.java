@@ -2,6 +2,7 @@ package com.engSoft.entities;
 
 import com.engSoft.DTO.FeedbackDTO;
 import com.engSoft.entities.types.ModalityEnum;
+import org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
